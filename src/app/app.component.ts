@@ -48,8 +48,6 @@ export class AppComponent {
     
   ];
 
-  public selectedBook = this.bookCollection[this.index];
-
   public rateBook(ratingNum: number){
     const selectedBook = this.bookCollection[this.index];
     selectedBook.ratings.push(ratingNum);
